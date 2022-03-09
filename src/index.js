@@ -1,3 +1,5 @@
+import './styles/index.scss';
+
 const familyGuy = {
     "name": "Peter Griffin",
     "type": 'funny',

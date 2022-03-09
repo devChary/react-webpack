@@ -1,0 +1,6 @@
+@use '__global';
+
+h1 {
+    color: var(--primary-color);
+    font-size: 3rem;
+}

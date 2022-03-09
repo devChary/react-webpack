@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #f2f2f2;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
