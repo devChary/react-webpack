@@ -1,11 +1,13 @@
+import  { render } from 'react-dom';
+
+import App from './App';
+
+// Import styles
 import './styles/index.scss';
 
-const familyGuy = {
-    "name": "Peter Griffin",
-    "type": 'funny',
-    "gender": "male"
-}
+render(<App />, document.getElementById('root'));
 
-const members = ['Lois', 'Peter', 'Stewie', 'Meg', 'Chris'];
+const familyGuyMembers = ['Lois', 'Peter', 'Stewie', 'Meg', 'Chris'];
 
-console.log({...familyGuy, ...members});
+console.log("🚀 ~ file: index.js ~ line 9 ~ familyGuyMembers", familyGuyMembers)
+
